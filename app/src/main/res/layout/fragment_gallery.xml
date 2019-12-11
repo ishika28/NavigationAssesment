@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/etRadius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter radius"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        />
+
+
+    <Button
+        android:id="@+id/btncalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calculate"
+        android:layout_margin="10dp"
+        android:textSize="36dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvArea"
+        android:textSize="20dp"
+        android:hint="Area displays here!.."
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginLeft="110dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="#ECE5E5"
+        />
+
+</LinearLayout>
